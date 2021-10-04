@@ -12,8 +12,21 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'BIM-Content',
+      repo: '',//Github corner 挂件
+	  loadSidebar: true,
+	  loadNavbar: true,//配置导航栏
+	  //coverpage: true,//配置封面
+	  subMaxLevel: 4,//配置目录副标题级数
+	  //maxLevel: 3,
+	  //subMaxLevel: 1,
+	  search: {
+            paths: 'auto',
+            placeholder: '? Type to search ',
+            noData: '? No Results! ',
+            // Headline depth, 1 - 6
+            depth: 6
+        },//增加搜索框
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
