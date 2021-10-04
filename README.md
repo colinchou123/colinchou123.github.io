@@ -1,2 +1,3 @@
-# gitpage
-this is a git page
+# Headline
+
+> An awesome project.
